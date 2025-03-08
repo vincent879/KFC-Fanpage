@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #bfc0c0;
+}
+
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+header li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #bf0603;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #c1121f;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;;
+}
+
+h1 {
+  font-family: "Gill Sans", sans-serif;;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #8d0801;
+}
+
+
+p {
+
+  font-family: 'Georgia', serif;
+  font-size: 1.125rem;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
+
+li.active a {
+  border-bottom: 2px solid blue;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  position: relative;
+  padding: 2rem 0;
+}
+
+header img {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav {
+  margin-left: 320px;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #b30000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #463f3a;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 250px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #adb5bd;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+  nav {
+    margin-left: 0;
+  }
